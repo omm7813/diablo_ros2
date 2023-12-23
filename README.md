@@ -12,3 +12,7 @@ Diablo robot source files with robot_localization package for sensor integration
 ### Launch the full setup of the diablo robot
 
 `ros2 launch diablo_ctrl diablo_full_setup.launch.py`
+
+### To start the path follower node
+- Modify the node with the path you would like the robot to follow (Initially set as a circle)
+- run `ros2 run diablo_ctrl path_follower.cpp`
